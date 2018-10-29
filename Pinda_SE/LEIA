@@ -1,0 +1,9 @@
+copiar o diretório "pinda" para o diretório raiz do Apache (/var/www/ no Linux)
+
+Dependências: Necessita do php5-curl
+
+------------------------------------------------------
+
+projeto desenvolvido com a IDE Eclipse Luna
+
+copiar o arquivo "Pinda.war" para o diretório "webapps" do Tomcat ("/usr/local/apache-tomcat-7.0.62/" no Linux, com instalação standalone)

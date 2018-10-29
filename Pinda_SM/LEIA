@@ -1,0 +1,3 @@
+copiar o diretório "pinda" para o diretório raiz do Apache (/var/www/ no Linux)
+
+Dependências: Necessita do php5-curl

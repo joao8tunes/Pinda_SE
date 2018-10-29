@@ -1,0 +1,293 @@
+body {
+	min-width: 1050px;
+    min-height: 600px;
+    zoom: 90%;
+    -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+}
+
+.selected_snippet_sct {
+	stroke: #FFA500 !important;
+    stroke-width: 10 !important;
+    stroke-dasharray: 10,3;
+    r: 15;
+}
+
+.selected_snippet_sbu {
+	stroke: #FFA500 !important;
+    stroke-width: 10 !important;
+    stroke-dasharray: 10,3;
+}
+
+.selected_snippet_tmp {
+	stroke: #FFA500 !important;
+    stroke-width: 10 !important;
+    stroke-dasharray: 10,3;
+}
+
+#img_api_selected {
+    margin: -7px;
+}
+
+.api_selected {
+    background-color: #2780e3;
+    color: #ffffff;
+}
+
+.coordinated {
+    background-color: #2780e3 !important;
+    color: #ffffff !important;
+}
+
+#sb {
+	text-align: center;
+}3
+
+#sb_opt_ckb {
+	text-align: left;
+}
+
+#sb_opt {
+	text-align: left;
+}
+
+#sb_opt-box {
+	width: 330px;
+	text-align: center;
+	display: none; 
+	margin-left: calc(50% - 165px);
+}
+
+#sb_opt_ckb_box {
+	width: 330px;
+	text-align: center;
+	margin-left: calc(50% - 165px);
+}
+
+#keywords_search {
+	width: 400px;
+}
+
+.snippeturl {
+    color: #2780E3;
+}
+
+.snippet {
+  border-color: "#000000";
+  border: 2px solid; 
+  padding: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.snippet_hover {
+  border: 3px solid;
+}
+
+.snippet_selected {
+  background-color: orange;
+}
+
+.windowTitle {
+	padding: 5px;
+	background-color: #121212;
+	color: #FFFFFF;
+	height: 30px;
+	text-align: left;
+}
+
+/*************/
+/* THUMBNAIL */
+/*************/
+#thumbnail {
+	position: absolute;
+	width: 12%;
+	padding-right: 1px;
+	display: inline-block;
+}
+
+#vis_thumbnail {
+	height: calc(40vh - 33px);
+	overflow: hidden;
+}
+
+.thumbnail_LT5 {    /*LT5 - less them 5*/
+	width: 50% !important;
+}
+
+.vis_thumbnail_LT5 {
+	height: calc(100vh - 33px) !important;
+}
+
+#iframe_thumbnail {
+    height: 250%;
+    width: 250%;
+    display: block;
+    -ms-zoom: 0.4;
+    -moz-transform: scale(0.4);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.4);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.4);
+    -webkit-transform-origin: 0 0;
+}
+
+.iframe_thumbnail_LT5 {
+    height: 166% !important;
+    width: 166% !important;
+    -ms-zoom: 0.6 !important;
+    -moz-transform: scale(0.6) !important;
+    -o-transform: scale(0.6) !important;
+    -webkit-transform: scale(0.6) !important;
+}
+
+/***************/
+/* DIRECTORIES */
+/***************/
+#directories {
+	position: absolute;
+	top: 40%;
+	width: 12%;
+	padding-right: 1px;
+	display: inline-block;
+}
+
+#vis_directories {
+	height: calc(60vh - 33px);
+	overflow: auto;
+}
+
+/************/
+/* SNIPPETS */
+/************/
+#snippets {
+	position: absolute;
+	left: 12%;
+	width: 30%;
+	padding-right: 2px;
+	border: 1px;
+    display: inline-block;
+}
+
+#vis_snippets {
+	padding: 3px;
+	overflow: scroll;
+	overflow-x: hidden;
+	height: calc(100vh - 33px);
+}
+
+.snippets_LT5 {
+	left: 50% !important;
+	width: 50% !important;
+}
+
+/***************/
+/* SCATTERPLOT */
+/***************/
+#scatterplot {
+	position: absolute;
+	left: 42%;
+	width: 58%;
+	padding-bottom: 1px;
+	border: 1px;
+	display: inline-block;
+}
+
+#vis_scatterplot {
+	height: calc(50vh - 33px);
+}
+
+.axis-scatterplot path,
+.axis-scatterplot line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot-scatterplot {
+  stroke: #000;
+}
+
+/***********/
+/* TREEMAP */
+/***********/
+#treemap {
+	position: absolute;
+	left: 42%;
+	top: calc(50vh - 29px);
+	width: 35%;
+	background: #ddd;
+	padding-right: 2px;
+	border: 1px;
+	display: inline-block;
+}
+
+#vis_treemap {
+	height: calc(50vh - 4px);
+}
+
+text {
+  pointer-events: none;
+}
+
+.grandparent text {
+  font-weight: bold;
+}
+
+rect {
+  fill: none;
+  stroke: #fff;
+}
+
+rect.parent,
+.grandparent rect {
+  stroke-width: 2px;
+}
+
+.grandparent rect {
+  fill: orange;
+}
+
+.grandparent:hover rect {
+  fill: #ee9700;3
+}
+
+.children rect.parent,
+.grandparent rect {
+  cursor: pointer;
+}
+
+.children rect.parent {
+  fill: #bbb;
+  fill-opacity: 1;
+}
+
+.children:hover rect.child {
+  fill: #bbb;
+}
+
+/************/
+/* SUNBURST */
+/************/
+#sunburst {
+	position: absolute;
+	/*left: 25%;*/
+	left: 77%;
+	/*top: 0px;*/
+	top: calc(50vh - 29px);
+	width: 23%;
+}
+
+#vis_sunburst {
+	height: calc(50vh - 4px);
+}
+
+#visualizations_space {
+  height: 100vh;
+  min-height: 600px;
+  position: relative;
+  border-color: "#000000";
+  border: 1px solid;
+  width: 100%; 
+  margin-top: 10px;
+}

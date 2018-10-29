@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/colt.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/googleapi.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/gson-2.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/h2.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/images.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/jcommon-1.0.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/jfreechart-1.0.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/jlfgr-1_0.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/lspsolver.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/PDFBox-0.7.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/snowball.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/servlet-api.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
